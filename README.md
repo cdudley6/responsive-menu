@@ -1,3 +1,3 @@
-# responsive-menu-before
+# responsive-menu
 
-Sample website before adding a responsive menu
+Website with responsive menu
