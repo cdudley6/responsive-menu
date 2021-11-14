@@ -104,7 +104,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100vh;
-  margin:0;
+  margin: 0;
   background-color: var(--space-cadet);
   z-index: 1;
 }
@@ -114,10 +114,9 @@ nav ul {
   flex-direction: column;
   justify-content: space-between;
   list-style-type: none;
-  margin: 6rem 0 4rem;
+  
   padding: 0;
   max-width: 80rem;
-  align-items: center;
 }
 
 nav a {
@@ -138,13 +137,14 @@ nav a:not([href]) {
   gap: 2rem;
 }
 
-@media(min-width:501px) {
+@media(min-width: 501px) {
   .main-menu {
     order: 0;
   }
-.main-menu .menu-icon {
-  display: none;
-}
+
+  .main-menu .menu-icon {
+    display: none;
+  }
 
   nav {
     margin: 2rem 1.5rem 6rem;
